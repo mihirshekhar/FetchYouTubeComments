@@ -42,7 +42,7 @@ import java.util.List;
     	  System.getProperties().put("http.proxyPort", "8080");
     	  
         // Create a new YouTube service
-        YouTubeService myService = new YouTubeService("AI39si5PR1nW5HIjgyEnpdubMdMsBUqhMx3BVoL6eH-ZnvIB3ktSxn-c8FKhn8bpuHvs3FxPm0VF7b-co3dDukH45jPajP6LCQ");
+        YouTubeService myService = new YouTubeService("MihirShekhar");
        // myService.setUserCredentials("mihirshekharcse2010@gmail.com", "5o1i6x~!@");
         // Get a list of all entries
         URL metafeedUrl = new URL("http://gdata.youtube.com/feeds/api/users/"+args[0]+"/favorites");
